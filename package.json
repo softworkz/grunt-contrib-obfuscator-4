@@ -1,12 +1,28 @@
 {
-  "name": "grunt-contrib-obfuscator",
+  "name": "grunt-contrib-obfuscator-4",
   "description": "Grunt plugin that obfuscates your JavaScript using the javascript-obfuscator library.",
-  "version": "8.0.0",
+  "version": "9.0.0",
+  "homepage": "https://github.com/softworkz/grunt-contrib-obfuscator-4",
+  "contributors": [
+    "Tiago Serafim (original author)"
+  ],
   "author": {
-    "name": "Tiago Serafim"
+    "name": "softworkz",
+    "email": "softworkz@hotmail.com"
   },
-  "repository": "javascript-obfuscator/grunt-contrib-obfuscator",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/softworkz/grunt-contrib-obfuscator-4"
+  },
+  "bugs": {
+    "url": "https://github.com/softworkz/grunt-contrib-obfuscator-4/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/softworkz/grunt-contrib-obfuscator-4/blob/master/LICENSE-MIT"
+    }
+  ],
   "engines": {
     "node": ">=4"
   },

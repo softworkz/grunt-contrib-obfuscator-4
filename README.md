@@ -1,6 +1,15 @@
-# grunt-contrib-obfuscator [![Build Status](https://travis-ci.com/javascript-obfuscator/grunt-contrib-obfuscator.svg?branch=master)](https://travis-ci.com/javascript-obfuscator/grunt-contrib-obfuscator)
+# grunt-contrib-obfuscator-4
 
-> Obfuscate JavaScript files using [javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator)@^2.0.0.
+### Forked From: https://github.com/javascript-obfuscator/grunt-contrib-obfuscator/
+
+#### Differences from Original Version
+
+- Bumped version of [javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator) to 4.x
+- Added automatic generation of identifiersPrefix values
+  (a different prefix is needed per file, see https://github.com/javascript-obfuscator/grunt-contrib-obfuscator/issues/20)
+
+
+> Obfuscate JavaScript files using [javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator)@^4.0.0.
 
 You can try the javascript-obfuscator module and see all its options here: https://obfuscator.io/
 
@@ -9,7 +18,7 @@ You can try the javascript-obfuscator module and see all its options here: https
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
-npm install grunt-contrib-obfuscator --save-dev
+npm install grunt-contrib-obfuscator-4 --save-dev
 npm install javascript-obfuscator --save-dev
 ```
 
@@ -18,7 +27,7 @@ Notice that you should install manually `javascript-obfuscator`. This makes it e
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('grunt-contrib-obfuscator');
+grunt.loadNpmTasks('grunt-contrib-obfuscator-4');
 ```
 
 ## Obfuscator task
