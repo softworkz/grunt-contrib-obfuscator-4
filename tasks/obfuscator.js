@@ -25,6 +25,10 @@ module.exports = function (grunt) {
         grunt.log.warn('Source file ' + chalk.cyan(filepath) + ' not found');
         return false;
       }
+      if( !grunt.file.isFile(filepath)) {
+          grunt.log.warn('Ignore folder' + chalk.cyan(filepath) );
+          return false;
+      }
       return true;
     });
   };
