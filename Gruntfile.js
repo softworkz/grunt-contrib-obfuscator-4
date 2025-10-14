@@ -51,7 +51,8 @@ module.exports = function (grunt) {
         files: {
           'tmp/': [
             'test/fixtures/file3.js',
-            'test/fixtures/folder/file4.js'
+            'test/fixtures/folder/file4.js',
+            'test/fixtures/folder.with.js/file4.js',
           ]
          }
       }
