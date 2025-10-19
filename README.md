@@ -1,12 +1,20 @@
 # grunt-contrib-obfuscator-4
 
-### Forked From: https://github.com/javascript-obfuscator/grunt-contrib-obfuscator/
+#### Forked From: https://github.com/javascript-obfuscator/grunt-contrib-obfuscator/
+
+### New in 9.1.0
+
+- Update version of [javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator) to 4.1.1
+- Add support for identifier caching
+- Add support for sourcemap generation
+
 
 #### Differences from Original Version
 
 - Bumped version of [javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator) to 4.x
 - Added automatic generation of identifiersPrefix values
   (a different prefix is needed per file, see https://github.com/javascript-obfuscator/grunt-contrib-obfuscator/issues/20)
+
 
 
 > Obfuscate JavaScript files using [javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator)@^4.0.0.

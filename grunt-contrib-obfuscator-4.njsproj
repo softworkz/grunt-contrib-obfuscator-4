@@ -21,7 +21,7 @@
     <Content Include="package-lock.json" />
     <Content Include="package.json" />
     <Content Include="README.md" />
-    <Content Include="tasks\obfuscator.js" />
+    <Compile Include="tasks\obfuscator.js" />
     <Content Include="test\fixtures\file1.js" />
     <Content Include="test\fixtures\file2.js" />
     <Content Include="test\fixtures\file3.js" />
